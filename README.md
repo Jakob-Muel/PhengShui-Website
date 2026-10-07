@@ -9,14 +9,15 @@ Available in English (`/en/`) and German (`/de/`). Every page has a DE/EN picker
 | Landing | https://jakob-muel.github.io/PhengShui-Website/en/ | https://jakob-muel.github.io/PhengShui-Website/de/ |
 | Privacy policy | https://jakob-muel.github.io/PhengShui-Website/en/privacy/ | https://jakob-muel.github.io/PhengShui-Website/de/privacy/ |
 | Support | https://jakob-muel.github.io/PhengShui-Website/en/support/ | https://jakob-muel.github.io/PhengShui-Website/de/support/ |
+| Legal notice / Impressum | https://jakob-muel.github.io/PhengShui-Website/en/legal-notice/ | https://jakob-muel.github.io/PhengShui-Website/de/impressum/ |
 
 The old URLs `/`, `/privacy/` and `/support/` still work: they redirect to the visitor's browser language (German -> `/de/`, everything else -> `/en/`).
 
 ## Structure
 
 ```
-en/index.html, en/privacy/, en/support/   English pages
-de/index.html, de/privacy/, de/support/   German pages
+en/index.html, en/privacy/, en/support/, en/legal-notice/   English pages
+de/index.html, de/privacy/, de/support/, de/impressum/      German pages
 index.html, privacy/, support/            language redirects (keep: old links point here)
 assets/style.css      all styles (values from the app's tokens.css)
 assets/icon.png       app icon, 512px
