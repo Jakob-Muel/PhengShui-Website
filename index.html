@@ -4,46 +4,25 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Pheng Shui</title>
-<meta name="description" content="Pheng Shui is a calm way to sort and declutter the photos on your iPhone.">
-<meta name="theme-color" content="#FBF3EF" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#16121C" media="(prefers-color-scheme: dark)">
-<meta name="color-scheme" content="light dark">
-<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://jakob-muel.github.io/PhengShui-Website/en/">
+<script>
+  // Send visitors to their language; anyone without JavaScript gets English via the refresh below.
+  (function () {
+    var langs = navigator.languages || [navigator.language || ''];
+    var de = /^de\b/i.test(langs[0] || '');
+    location.replace('' + (de ? 'de' : 'en') + '/' + location.hash);
+  })();
+</script>
+<meta http-equiv="refresh" content="0; url=en/">
 <link rel="icon" href="assets/favicon.ico" sizes="any">
-<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 <div class="wrap">
-<header class="site-header">
-  <a class="brand" href="./" aria-label="Pheng Shui home">
-    <img src="assets/icon.png" width="36" height="36" alt="">
-    <span>Pheng Shui</span>
-  </a>
-</header>
-
-<main>
-  <section class="hero">
-    <img src="assets/icon.png" width="112" height="112" alt="Pheng Shui app icon">
-    <h1>Pheng Shui</h1>
-    <p>A calm way to sort and declutter the photos on your iPhone.</p>
-  </section>
-
-  <nav class="rows" aria-label="Pages">
-    <a class="row" href="support/">
-      <span class="row-text"><span class="row-title">Support</span><span class="row-sub">Questions, help and contact</span></span>
-      <span class="chevron" aria-hidden="true"></span>
-    </a>
-    <a class="row" href="privacy/">
-      <span class="row-text"><span class="row-title">Privacy Policy</span><span class="row-sub">What the app does with your data</span></span>
-      <span class="chevron" aria-hidden="true"></span>
-    </a>
-  </nav>
+<main class="hero">
+  <p><a href="en/" hreflang="en">English</a><span class="dot" aria-hidden="true"> · </span><a href="de/" hreflang="de" lang="de">Deutsch</a></p>
 </main>
-<footer class="site-footer">
-  &copy; 2026 Jakob Müller<span class="dot" aria-hidden="true">·</span><a href="privacy/">Privacy</a><span class="dot" aria-hidden="true">·</span><a href="support/">Support</a>
-</footer>
 </div>
 </body>
 </html>
